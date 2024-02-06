@@ -26,7 +26,7 @@ module.exports = async function pintCommand(client, message, prefix) {
 
       if (pinterestData && pinterestData.images && pinterestData.images.length > 0) {
         const images = pinterestData.images;
-        await message.reply(`*${pinterestData.count}* images found`)
+        await message.reply(`*${pinterestData.count}* images found 🧧`)
         // Sending each image one by one
         for (const imageUrl of images) {
           const media = await MessageMedia.fromUrl(imageUrl, { unsafeMime: true });
