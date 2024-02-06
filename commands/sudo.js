@@ -15,7 +15,7 @@ async function addsudoCommand(waclient, message) {
             return;
         }
         if (!quotedMsg) {
-            message.reply(`⚠️ Please reply to the user to add in sudo list.`);
+            message.reply(`🏮 Please reply to the user to add in sudo list 🏮`);
             return;
         }
         try {
@@ -26,12 +26,12 @@ async function addsudoCommand(waclient, message) {
             message.reply(`Added sudo user for number: ${contactNumber}`);
         } catch (error) {
             console.error(error);
-            message.reply(`⚠️ Error:\n${error.message}`);
+            message.reply(`🦅 Error:\n${error.message}`);
         } finally {
             await client.close();
         }
     } else {
-        message.reply('⚠️ You do not have rights to do that');
+        message.reply('🏮 You do not have rights to do that 🏮');
         console.log(message.from + 'tried to access addsudo');
     }
     
@@ -49,7 +49,7 @@ async function delsudoCommand(waclient, message) {
             return;
         }
         if (!quotedMsg) {
-            message.reply(`⚠️ Please reply to the user to remove from sudo list.`);
+            message.reply(`🏮 Please reply to the user to remove from sudo list 🏮`);
             return;
         }
         try {
@@ -60,12 +60,12 @@ async function delsudoCommand(waclient, message) {
             message.reply(`Removed sudo user for number: ${contactNumber}`);
         } catch (error) {
             console.error(error);
-            message.reply(`⚠️ Error:\n${error.message}`);
+            message.reply(`🦅 Error:\n${error.message}`);
         } finally {
             await client.close();
         }
     } else {
-        message.reply('⚠️ You do not have rights to do that');
+        message.reply('🏮 You do not have rights to do that 🏮');
         console.log(message.from + 'tried to access delsudo');
     }
 
@@ -82,7 +82,7 @@ async function listsudoCommand(waclient, message) {
         const senderNumber = message.author == undefined ? message.from.replace('@c.us', '') : message.author.replace('@c.us', '');
         const sudoUser = await collection.findOne({ number: senderNumber });
         if (senderNumber !== process.env.OWNER_NUMBER && !sudoUser) {
-            message.reply('⚠️ You do not have rights to do that');
+            message.reply('🏮 You do not have rights to do that 🏮');
             console.log(message.from + ' tried to access listsudo');
             return;
         }
@@ -96,14 +96,14 @@ async function listsudoCommand(waclient, message) {
         }
         
         if (!sudoUserDetails) {
-            message.reply(`No sudo users.`);
+            message.reply(`No sudo users dear 🍀`);
             return;
         }
         
         message.reply(`Sudo users:\n${sudoUserDetails}`);
     } catch (error) {
         console.error(error);
-        message.reply(`⚠️ Error:\n${error.message}`);
+        message.reply(`🦅 Error:\n${error.message}`);
     } finally {
         await client.close();
     }
