@@ -1,5 +1,3 @@
-//Thanks to @ThiruXD for youtube audio and video modules
-
 const ytdl = require('ytdl-core');
 const { MessageMedia } = require('whatsapp-web.js');
 const fs = require('fs');
@@ -12,7 +10,7 @@ async function AudioDownloadYouTube(client, message, prefix) {
 
     try {
         if (!url.trim()) {
-            await message.reply('No query!');
+            await message.reply('Provide a youtube url 🍀');
             return;
         }
         else {
@@ -58,7 +56,7 @@ async function AudioDownloadYouTube(client, message, prefix) {
         }
     } catch (error) {
         console.log(error);
-        message.reply('Something went wrong.');
+        message.reply('Something went wrong ☘️');
     }
 }
 
@@ -175,7 +173,7 @@ async function GetYouTubeInfo(client, message, prefix) {
         }
     } catch (error) {
         console.log(error);
-        message.reply('Something went wrong.');
+        message.reply('Something went wrong ☘️');
     }
 
 }
