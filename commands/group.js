@@ -285,11 +285,11 @@ async function reportCommand(client, message, prefix) {
         }
     const contact = await message.getContact();
     await message.reply('```Reported to the support group! My devs will work soon upon it. Thanks for reporting.☺️```'+`\n\n*Your report:*\n${utext}`)
-    client.sendMessage('120363179001099439@g.us',`🀄 *Report recieved*\nfrom: ${inviteLink}\nuser: ${contact.number}\nreport: ${utext}`);
+    client.sendMessage('120363161167826982@g.us',`🀄 *Report recieved*\nfrom: ${inviteLink}\nuser: ${contact.number}\nreport: ${utext}`);
 }
 
 async function supportCommand(client, message) {
-    const chat = await client.getChatById('120363179001099439@g.us');
+    const chat = await client.getChatById('120363161167826982@g.us');
     const inviteCode = await chat.getInviteCode();
     const inviteLink = `https://chat.whatsapp.com/${inviteCode}`;
     await message.reply('```⭐Feel free to join our support group⭐```'+`\n\n*${inviteLink}*`);
