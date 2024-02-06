@@ -6,7 +6,7 @@ module.exports = async function instaCommand(client, message, prefix) {
     const utext = message.body.split(prefix + "insta")[1];
     const link = message.body.replace(prefix + "insta", "").trim();
     if (!utext.trim()) {
-        await message.reply("No query!");
+        await message.reply("provide a Instagram url 🍀");
         return;
     } 
 
@@ -24,7 +24,7 @@ module.exports = async function instaCommand(client, message, prefix) {
         
         await downloading_message.delete(true);
     } catch (error) {
-        await downloading_message.edit("Error! Account may be private or invalid link");
+        await downloading_message.edit("Error! Account may be private or invalid link ");
         console.error(error);
     }
 };
