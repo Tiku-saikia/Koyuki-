@@ -1,5 +1,7 @@
 module.exports = async function helpCommand(client, message, prefix) {
     await message.reply(`
+Hey 👋 I am Koyuki🧣 
+
 *OWNER 🌊*
  eval,term,sudos,addsudo,delsudo
 
@@ -11,14 +13,14 @@ module.exports = async function helpCommand(client, message, prefix) {
  chatbot,id,info,extract
 
 *UTILS 🍀*
-report,support,tl,tr,paste,tiny,wiki
-sauce,getprompt,truecaller
+ report,support,tl,tr,paste,tiny,wiki
+ sauce,getprompt,truecaller
 
 *Learning 📚*
  code,gpt,bard
 
 *Downloader 🫧*
-  song,video,insta,detail
+ song,video,insta,detail
 
 *Media 🪵*
  sticker,rmbg,enhance,pint
@@ -28,14 +30,13 @@ sauce,getprompt,truecaller
  wanted,tts,emoji,pp,carbon
  toanim,toanime3d
 
-
 *NSFW 🏮*
-  hanime,hbar*
+ hanime,hbar*
 
 *OTHER 🍫*
-  repo,owner
+ repo,owner
 
-  Crystal🔮
+Bot from  Crystal🔮 
 
     `);
 }
