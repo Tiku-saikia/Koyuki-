@@ -10,11 +10,11 @@ async function stickerCommand(client, message, prefix) {
   if (utext){
       stickerName = utext;
   }else{
-      stickerName = contact.pushname;
+      stickerName = ;
       stickerAuthor = "Miku";
   }
     if (!quotedMsg){
-      message.reply(`🙇‍♂️ *Error*\n\n` + "```Please reply to an image or gif or short video```");
+      message.reply(`🌊 *Error*\n\n` + "```Please reply to an image or gif or short video```");
       return;
     }
     
@@ -43,12 +43,12 @@ async function stickerCommand(client, message, prefix) {
     } else {
       await client.sendMessage(
         message.from,
-        `🙇‍♂️ *Error*\n\n` + "```No image found to make a Sticker```"
+        `🌊 *Error*\n\n` + "```No image found to make a Sticker```"
       );
     }
 }catch (error){
-    message.reply(`🙇‍♂️ *Error*\n\n` + `\n\n${error.message}`);
-}
+    message.reply(`🌊 *Error*\n\n` + `\n\n${error.message}`);
+
     
 }
 
