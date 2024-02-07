@@ -42,11 +42,11 @@ module.exports = async function ttsCommand(client, message) {
             // await client.sendMessage(message.from, media, { sendAudioAsVoice: true });
             await processAudio(client, message, './commands/audio_dl/download.mp3');
         } else {
-            await message.reply("*Error*\n```Please reply to a text message to convert to speech```");
+            await message.reply("```Please reply to a text message to convert to speech```");
         }
     } catch (error) {
         // console.error(error);
-        await message.reply("*Error*\n```Failed to process the TTS request```");
+        await message.reply("```Failed to process the TTS request```");
     }
 }
 async function processAudio(client, message, inputFilePath) {
