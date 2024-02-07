@@ -361,7 +361,7 @@ async function tagallCommand(client, message) {
     const taggerContact = await client.getContactById(message.author);
     const taggerName = await taggerContact.pushname;
 
-    const messageText = `*Group name:* ${groupName}\n*Members:* ${participants.length}\n*Tagger:* ${taggerName}\n\n💈*Admins*\n${admins.join('\n')}\n\n*Members*\n${members.join('\n')}`;
+    const messageText = `🏮 *Group name:* ${groupName}\n⭐ *Members:* ${participants.length}\n📣 *Tagger:* ${taggerName}\n\n💈*Admins*\n${admins.join('\n')}\n\n🎗️*Members*\n${members.join('\n')}`;
 
     await client.sendMessage(message.from, messageText, {
         mentions: contacts
