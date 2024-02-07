@@ -4,7 +4,7 @@ const { MessageMedia } = require('whatsapp-web.js');
     try{
         const utext = message.body.split(prefix + "carbon")[1];
         if(!utext.trim()){
-            await message.reply("No Query!");
+            await message.reply("No Query found");
             return;
         }else{
             const carbonAPI = 'https://api.yanzbotz.my.id/api/maker/carbon?text='
