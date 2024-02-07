@@ -6,11 +6,11 @@ Hey 👋 I am Koyuki🧣
  eval,term,sudos,addsudo,delsudo
 
 *BOT 🤖*
- start,help,ping
+ start,help,ping,hi
 
 *GROUP 🍁*
  promote,demote,kick,revoke,invite
- chatbot,id,info,extract
+ chatbot,id,info,extract,mods
 
 *UTILS 🍀*
  report,support,tl,tr,paste,tiny,wiki
