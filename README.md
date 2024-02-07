@@ -69,3 +69,6 @@ PUPPETEER_SKIP_CHROMIUM_DOWNLOAD (required), if you are running on windows remov
    INSTALLATION_ID (optional) (get truecaller installation ID from https://replit.com/@E-Venture/truecaller-installation-id?v=1)
 
 ```  
+6. **Scanning the QR code:**
+
+   Open the link provided by the deployment platform OR if you are running on local platform open http://localhost:3000/
