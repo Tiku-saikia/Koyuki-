@@ -1,6 +1,6 @@
 <div align="center">
   
-  <img src="https://i.ibb.co/ZgrSw5L/URUHA-RUSHIA.jpg" width="150" height="150" border="0" alt="PFP">
+  <img src="https://i.ibb.co/ZgrSw5L/URUHA-RUSHIA.jpg" width="300" height="300" border="0" alt="PFP">
 
 </div>
 <p align="center"> 
