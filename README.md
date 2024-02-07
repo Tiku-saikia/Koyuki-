@@ -1,94 +1,80 @@
-# MIKO BOT
+<div align="center">
+  
+  <img src="https://i.ibb.co/ZgrSw5L/URUHA-RUSHIA.jpg" width="150" height="150" border="0" alt="PFP">
 
-MIKO BOT is a Node.js-based WhatsApp chatbot powered by [Puppeteer](https://pptr.dev/) and [whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js). It allows you to automate interactions with WhatsApp Web, enabling various automated tasks and responses.
+</div>
+<p align="center"> 
+  👋 Konochiwa (｡♡‿♡｡) I am Emilia🌸 a WhatsApp bot made by TIKU✨🦋
+</p>
+</br>
 
-## Features
+</br>
 
-- **WhatsApp Automation**: MIKO BOT can automate tasks such as sending messages, images, and stickers to WhatsApp contacts or groups.
-- **Dynamic Responses**: Customize your bot to provide dynamic responses based on user inputs or predefined conditions.
-- **Message Handling**: Handle incoming messages, process them, and respond accordingly.
-- **Sticker Handling**: Convert and create sticker with bot.
-- **Chatbot AI**: Customize AI replies from the bot.
-- **More?**: Just try example bot and you can explore all features.
-- **Example Bot**: [Miko Bot](https://wa.link/lof6tp)
+## ```Connect With Me```
 
-## Getting Started
+<p align="center">
 
-Follow these steps to set up and run the MIKO BOT on your local machine or deploy it to a cloud platform like Heroku.
+<a href="https://api.whatsapp.com/send?phone=917086726371&text=𝘩𝘦𝘭𝘭𝘰+𝘮𝘢𝘴𝘵𝘦𝘳"><img src="https://img.shields.io/badge/Contact TIKU✨🦋-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
-1. **Clone the Repository**:
 
-   ```bash
-   git clone https://github.com/awesome-tofu/miko-bot.git
 
-2. **Change the Directory**:
+<h4 align="center"> Join Crystal🔮 support group for more information and discussion .
+</h4>
 
-   ```bash
-    cd miko-bot
+<p align="center" >
+<a href="https://chat.whatsapp.com/GgO0xCOqn645x4kedLMCJL"><img src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" width="140px">
+</a>
+</p>
 
-3. **Install  Dependencies:**
 
-    ```bash
-    npm install
+## ` Pair with WhatsApp`
+<h2 align="left">  <a href="https://maria-pair-code.onrender.com"><img src="https://play-lh.googleusercontent.com/901aMQFFnVoX2T-YuJmTIwpPve_SUgMv_QSyzMSPtAqt_l0CyXN1DxfD6xXU0r2f9iM=w240-h480-rw" width="90" />
+</a>
+</h2>
 
-4. **Set Environment Variables:**
+## 
 
-   **sample:** [sample.env](https://github.com/Awesome-Tofu/miko-bot/blob/main/sample.env)
-    ```env
-   PUPPETEER_SKIP_CHROMIUM_DOWNLOAD (required), if you are running on windows remove it
-   PUPPETEER_EXECUTABLE_PATH (required), if you are running on windows remove it
-   MONGODB_URI (required) (get it from https://cloud.mongodb.com/)
-   DEFAULT_LANGUAGE (optional)
-   BOT_NUMBER (required)
-   OWNER_NUMBER (required)
-   NUMVERIFY_KEY (optional)
-   CHARAI_TOKEN (optional) (see how to get https://pycai.gitbook.io/welcome/api/values#key-token)
-   CHATBOT (optional) (set default chatbot true/false)
-   INSTALLATION_ID (optional) (get truecaller installation ID from https://replit.com/@E-Venture/truecaller-installation-id?v=1)
-    
 
-5. **Start the script:**
-   ```bash
-   npm start
 
-6. **Scanning the QR code:**
-
-   Open the link provided by the deployment platform OR if you are running on local platform open http://localhost:3000/
-
-7. **Command Usage:**
    
-   Once the bot is running, you can start sending commands and messages to it via WhatsApp.
 
-   | Command          | Description                                  |
-   | ----------------- | -------------------------------------------- |
-   | `.start`         | Command to start the bot.                    |
-   | `.eval`         | Evaluate nodejs script with vim.  |
-   | `.sticker`       | Send a sticker from replied image.     |
-   | `.translate <code>` | Translate text to the default language.    |
-   | `.report <issue>`| Report an issue with the bot.              |
-   | `.support`       | Get support and assistance.                |
-   | `.help`       | You can see more command lists               |
-   
-## Support
 
-   <p>Need any help? Feel free to join our support group. We will be happy to help you☺️</p><br>
-   
- <a aria-label="Join our chats" href="https://chat.whatsapp.com/E0XzCPRXoip16GVoG9yUV0" target="_blank">
- <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-  </a>
 
-## Thanks to
+<a href="https://heroku.com/deploy?template=https://github.com/AYUSH-PANDEY023/Maria-Md">
+    <img src="https://www.herokucdn.com/deploy/button.png" width="160px" alt="Deploy on Heroku" >
+    </a>
 
-   - [Whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js) for providing awesome package
-   - [WhatsBot](https://github.com/tuhinpal/WhatsBot) for telegraph, sticker, term and carbon command inspiration
-   - [ThiruXD ♡︎](https://github.com/ThiruXD) for making youtube downloader commands
-   - Last but Not Least: [You](https://i.imgur.com/lDjxY1D.gif) <img src="https://i.imgur.com/lDjxY1D.gif" alt="image" width="35" height="auto"> for using my repo
-   
-## Things I want you to know
+<br>
+<br>
+<a href="https://railway.app/new"><img src="https://railway.app/button.svg" />
+<br>
+<br>
+  <a href="https://github.com/codespaces/new"><img title="A17 on Gitub Codespace" src="https://img.shields.io/badge/DEPLOY CODESPACE-h?color=black&style=for-the-badge&logo=visualstudiocode" />
+</a>
+  <br>
+<br>
+  <a href="https://studio.mogenius.com/studio/cloud-space/cloud-space-overview"><img title="A17 on Mogenius" src="https://img.shields.io/badge/DEPLOY MOGENIUS-h?color=blue&style=for-the-badge&logo=genius"></a>
+</a>
 
-   I am still learning nodejs, so my code might look repeating cuz I dont want to touch code if its working, and I am having trouble in saving session on  heroku. If you can help, please feel free to contribute.
-   
-## License
+## `Requirements`
 
-[MIT](https://choosealicense.com/licenses/mit/)
+* [Node.js](https://nodejs.org/en/)
 
+* [Git](https://git-scm.com/downloads)
+
+* [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2020-12-08-13-03/ffmpeg-n4.3.1-26-gca55240b8c-win64-gpl-4.3.zip)
+
+* [Libwebp](https://developers.google.com/speed/webp/download)
+
+* Any text editor
+
+## ` BUILDPACKS`
+
+```
+
+
+https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+
+https://github.com/clhuang/heroku-buildpack-webp-binaries.git
+
+```
