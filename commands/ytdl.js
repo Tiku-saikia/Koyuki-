@@ -10,7 +10,7 @@ async function AudioDownloadYouTube(client, message, prefix) {
 
     try {
         if (!url.trim()) {
-            await message.reply('Provide a youtube url 🍀');
+            await message.reply('No query found');
             return;
         }
         else {
@@ -56,7 +56,7 @@ async function AudioDownloadYouTube(client, message, prefix) {
         }
     } catch (error) {
         console.log(error);
-        message.reply('Something went wrong ☘️');
+        message.reply('Something went wrong ');
     }
 }
 
@@ -91,7 +91,7 @@ async function VideoDownloadYouTube(client, message, prefix) {
 
     try {
         if (!url.trim()) {
-            await message.reply('No query!');
+            await message.reply('No query found');
             return;
         }
         else {
@@ -135,8 +135,8 @@ async function VideoDownloadYouTube(client, message, prefix) {
         }
     } catch (error) {
         console.log(error);
-        message.reply('Something went wrong.');
-    }
+        message.reply('Something went wrong');
+      }
 }
 
 async function GetYouTubeInfo(client, message, prefix) {
@@ -173,7 +173,7 @@ async function GetYouTubeInfo(client, message, prefix) {
         }
     } catch (error) {
         console.log(error);
-        message.reply('Something went wrong ☘️');
+        message.reply('Something went wrong');
     }
 
 }
