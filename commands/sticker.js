@@ -10,8 +10,8 @@ async function stickerCommand(client, message, prefix) {
   if (utext){
       stickerName = utext;
   }else{
-      stickerName = ;
-      stickerAuthor = "Miku";
+      stickerName = "🌸Handcrafted for you by";
+      stickerAuthor = "Koyuki🧣";
   }
     if (!quotedMsg){
       message.reply(`🌊 *Error*\n\n` + "```Please reply to an image or gif or short video```");
