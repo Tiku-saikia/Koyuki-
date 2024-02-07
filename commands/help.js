@@ -1,7 +1,7 @@
 const { MessageMedia } = require('whatsapp-web.js');
 
 module.exports = async function helpCommand(client, message, prefix) {
-    const helpImg = 'https://te.legra.ph/file/7ed246dfd92ce31c1d157.jpg';
+    const helpImg = 'https://te.legra.ph/file/86aa8d8ffedc0c2c7ce7f.jpg';
     const helpMsg = `
 Hey 👋 I am Koyuki🧣 
 
