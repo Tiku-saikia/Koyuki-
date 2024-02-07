@@ -49,7 +49,7 @@ async function stickerCommand(client, message, prefix) {
 }catch (error){
     message.reply(`🌊 *Error*\n\n` + `\n\n${error.message}`);
 
-    
+    }   
 }
 
 
