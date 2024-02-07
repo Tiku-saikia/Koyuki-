@@ -10,7 +10,7 @@ async function stickerCommand(client, message, prefix) {
   if (utext){
       stickerName = utext;
   }else{
-      stickerName = "🌸Handcrafted for you by";
+      stickerName = "🍥 Handcrafted for you by";
       stickerAuthor = "Koyuki🧣";
   }
     if (!quotedMsg){
