@@ -6,7 +6,7 @@ module.exports = async function delCommand(client, message) {
             
             message.delete(true);
         }else{
-            message.reply('Please reply to the message message!')
+            message.reply('Please reply to the message message')
         }
     } catch (error) {
         message.reply('I am not admin');
