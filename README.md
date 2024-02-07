@@ -4,7 +4,7 @@
 
 </div>
 <p align="center"> 
-  👋 Konochiwa (｡♡‿♡｡) I am Emilia🌸 a WhatsApp bot made by TIKU✨🦋
+  👋 Konochiwa (｡♡‿♡｡) I am Koyuki🧣 a WhatsApp bot made by TIKU✨🦋
 </p>
 </br>
 
@@ -26,34 +26,6 @@
 </a>
 </p>
 
-
-## ` Pair with WhatsApp`
-<h2 align="left">  <a href="https://maria-pair-code.onrender.com"><img src="https://play-lh.googleusercontent.com/901aMQFFnVoX2T-YuJmTIwpPve_SUgMv_QSyzMSPtAqt_l0CyXN1DxfD6xXU0r2f9iM=w240-h480-rw" width="90" />
-</a>
-</h2>
-
-## 
-
-
-
-   
-
-
-
-<a href="https://heroku.com/deploy?template=https://github.com/AYUSH-PANDEY023/Maria-Md">
-    <img src="https://www.herokucdn.com/deploy/button.png" width="160px" alt="Deploy on Heroku" >
-    </a>
-
-<br>
-<br>
-<a href="https://railway.app/new"><img src="https://railway.app/button.svg" />
-<br>
-<br>
-  <a href="https://github.com/codespaces/new"><img title="A17 on Gitub Codespace" src="https://img.shields.io/badge/DEPLOY CODESPACE-h?color=black&style=for-the-badge&logo=visualstudiocode" />
-</a>
-  <br>
-<br>
-  <a href="https://studio.mogenius.com/studio/cloud-space/cloud-space-overview"><img title="A17 on Mogenius" src="https://img.shields.io/badge/DEPLOY MOGENIUS-h?color=blue&style=for-the-badge&logo=genius"></a>
 </a>
 
 ## `Requirements`
@@ -73,8 +45,10 @@
 ```
 
 
-https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+https://github.com/heroku/heroku-buildpack-google-chrome.git
 
-https://github.com/clhuang/heroku-buildpack-webp-binaries.git
+https://github.com/jontewks/puppeteer-heroku-buildpack.git
+
+https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
 
 ```
