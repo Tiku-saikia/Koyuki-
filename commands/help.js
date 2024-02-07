@@ -40,9 +40,7 @@ Hey 👋 I am Koyuki🧣
  repo,owner
 
 *Bot from  Crystal🔮*
-
-
     `;
-    const media = await MessageMedia.fromUrl(helpImg, { unsafeMime: true })';
+    const media = await MessageMedia.fromUrl(helpImg, { unsafeMime: true });
     await client.sendMessage(message.from, media, { caption: helpMsg })
     }
