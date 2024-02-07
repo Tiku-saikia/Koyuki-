@@ -56,7 +56,7 @@ https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
 
 ENV.EXEAMPLE`
 
-
+```
 PUPPETEER_SKIP_CHROMIUM_DOWNLOAD (required), if you are running on windows remove it
    PUPPETEER_EXECUTABLE_PATH (required), if you are running on windows remove it
    MONGODB_URI (required) (get it from https://cloud.mongodb.com/)
@@ -67,4 +67,5 @@ PUPPETEER_SKIP_CHROMIUM_DOWNLOAD (required), if you are running on windows remov
    CHARAI_TOKEN (optional) (see how to get https://pycai.gitbook.io/welcome/api/values#key-token)
    CHATBOT (optional) (set default chatbot true/false)
    INSTALLATION_ID (optional) (get truecaller installation ID from https://replit.com/@E-Venture/truecaller-installation-id?v=1)
-    
+
+```  
