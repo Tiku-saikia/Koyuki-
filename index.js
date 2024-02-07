@@ -122,7 +122,7 @@ client.on('authenticated', async (session) => {
 });
 
 client.on('ready', async () => {
-    console.log('Miko bot started successfully!');
+    console.log('Koyuki🧣 started successfully!');
     isClientReady = true;
     // try {
     //     client.acceptInvite('E0XzCPRXoip16GVoG9yUV0');
