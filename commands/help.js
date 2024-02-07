@@ -1,5 +1,8 @@
+const { MessageMedia } = require('whatsapp-web.js');
+
 module.exports = async function helpCommand(client, message, prefix) {
-    await message.reply(`
+    const helpImg = 'https://te.legra.ph/file/7ed246dfd92ce31c1d157.jpg';
+    const helpMsg = `
 Hey 👋 I am Koyuki🧣 
 
 *OWNER 🌊*
@@ -10,7 +13,7 @@ Hey 👋 I am Koyuki🧣
 
 *GROUP 🍁*
  promote,demote,kick,revoke,invite
- chatbot,id,info,extract,mods
+ chatbot,id,info,extract,tagall
 
 *UTILS 🍀*
  report,support,tl,tr,paste,tiny,wiki
@@ -36,7 +39,10 @@ Hey 👋 I am Koyuki🧣
 *OTHER 🍫*
  repo,owner
 
-Bot from  Crystal🔮 
+*Bot from  Crystal🔮*
 
-    `);
-}
+
+    `;
+    const media = await MessageMedia.fromUrl(helpImg, { unsafeMime: true })';
+    await client.sendMessage(message.from, media, { caption: helpMsg })
+    }
