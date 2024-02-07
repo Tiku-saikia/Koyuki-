@@ -1,7 +1,7 @@
 {
-    "name": "miko-bot",
-    "description": "Miko bot whatsapp automated program",
-    "logo": "https://miro.medium.com/v2/resize:fit:698/1*0jjdu52m0MO4SjLWiCVOlg.jpeg",
+    "name": "Koyuki🧣",
+    "description": "Koyuki🧣 bot whatsapp automated program",
+    "logo": "https://telegra.ph/file/cc5c85ccf6bb7d8935b77.jpg",
     "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device", "whatsapp-web.js"],
     "env": {
     "PUPPETEER_EXECUTABLE_PATH": {
@@ -20,12 +20,12 @@
       "required":true
     },
     "BOT_NUMBER":{
-      "description": "bot's phone number example - 918377xxxxxx",
+      "description": "bot's phone number example - 917086xxxxxx",
       "value": "",
       "required":true
     },
     "OWNER_NUMBER":{
-      "description": "Add your phone number example - 913474xxxxxx",
+      "description": "Add your phone number example - 917086xxxxxx",
       "value": "",
       "required":true
     },
