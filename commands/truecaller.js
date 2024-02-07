@@ -5,7 +5,7 @@ const axios = require('axios');
 module.exports = async function truecallerCommand(client, message, prefix) {
     const utext = message.body.split(prefix + "truecaller")[1];
     if (!utext) {
-        await message.reply('No query!\nExample: ' + prefix + 'truecaller +919876543210');
+        await message.reply('No query!\nExample: ' + prefix + 'truecaller +917086xxxxxx');
         return;
     }
     let result;
