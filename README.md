@@ -77,6 +77,8 @@ PUPPETEER_SKIP_CHROMIUM_DOWNLOAD (required), if you are running on windows remov
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
+- Last but Not Least: [You](https://i.imgur.com/lDjxY1D.gif) <img src="https://i.imgur.com/lDjxY1D.gif" alt="image" width="35" height="auto"> for using my repo
+
 Thanks For using the Bot 🍥
 
 Arigato Guzaimasu 🧧
