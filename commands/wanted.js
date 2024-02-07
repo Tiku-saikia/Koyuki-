@@ -50,7 +50,7 @@ module.exports = async function wantedCommand(client, message, prefix) {
           await generating.delete(true);
         } else {
           // Invalid command format
-          message.reply(`Invalid command format. Please use: ${prefix}wanted "Name" Bounty\n*Example*\n${prefix}wanted "Monkey D Luffy" 300000`);
+          message.reply(`🧣 not like that  Please use: ${prefix}wanted "Name" Bounty\n\n*Example*\n${prefix}wanted "Monkey D Luffy" 300000`);
         }
       }
     } else {
