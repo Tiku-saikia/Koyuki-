@@ -1,7 +1,7 @@
 {
     "name": "Koyuki🧣",
     "description": "Koyuki🧣 bot whatsapp automated program",
-    "logo": "https://telegra.ph/file/cc5c85ccf6bb7d8935b77.jpg",
+    "logo": "https://te.legra.ph/file/f95eaaacf342dfff25df9.jpg",
     "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device", "whatsapp-web.js"],
     "env": {
     "PUPPETEER_EXECUTABLE_PATH": {
