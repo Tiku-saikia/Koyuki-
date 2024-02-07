@@ -4,12 +4,12 @@ const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch
 async function gptCommand(client, message, prefix) {
     let utext = message.body.split(prefix + "gpt")[1].trim();
     if(!utext.trim()){
-        await message.reply('No query!');
+        await message.reply('No query found');
         return;
     }
     const writing = await message.reply('Writing...');
         try{
-            const response = await fetch('https://api.qewertyy.me/models?model_id=5&prompt='+encodeURIComponent(utext), {
+            const response = await fetch('https://api.qewertyy.dev/models?model_id=5&prompt='+encodeURIComponent(utext), {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
