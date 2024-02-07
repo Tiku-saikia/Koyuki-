@@ -13,7 +13,7 @@ module.exports = async function pingCommand(client, message) {
         const cpuUsage = os.loadavg()[0];
         const diskUsage = (totalMem - freeMem) / totalMem;
 
-        const response = `🏓 ᴩᴏɴɢ : ${(ping).toFixed(3)}ᴍs\n\nᴍɪᴋᴏ sʏsᴛᴇᴍ sᴛᴀᴛs :\n\n↬ ᴜᴩᴛɪᴍᴇ : ${ms(uptime * 1000, { long: true })}\n↬ ʀᴀᴍ : ${(1 - freeMem / totalMem) * 100}%\n↬ ᴄᴩᴜ : ${cpuUsage * 100}%\n↬ ᴅɪsᴋ : ${diskUsage * 100}%`;
+        const response = `🥢 ping: ${(ping).toFixed(3)}ᴍs\n\nkoyuki🧣 stats :\n\n*🍥 ᴜᴩᴛɪᴍᴇ* : ${ms(uptime * 1000, { long: true })}\n*🌌 ʀᴀᴍ* : ${(1 - freeMem / totalMem) * 100}%\n*🔖 ᴄᴩᴜ* : ${cpuUsage * 100}%\n*💈 ᴅɪsᴋ* : ${diskUsage * 100}%\n\n*Crystal🔮*`;
             // Store the Promise returned by message.reply in a variable
         await pingawait.delete(true)
         const replyPromise = message.reply(response);
