@@ -34,7 +34,7 @@ Hey 👋 I am Koyuki🧣
  toanim,toanime3d
 
 *NSFW 🏮*
- hanime,hbar*
+ hanime,hbar
 
 *OTHER 🍫*
  repo,owner
