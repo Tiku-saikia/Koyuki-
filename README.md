@@ -14,7 +14,7 @@
 
 <p align="center">
 
-<a href="https://api.whatsapp.com/send?phone=917086726371&text=𝘩𝘦𝘭𝘭𝘰+𝘮𝘢𝘴𝘵𝘦𝘳"><img src="https://img.shields.io/badge/Contact TIKU✨🦋-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://api.whatsapp.com/send?phone=917086810603&text=⛩️Konichiwa+👋"><img src="https://img.shields.io/badge/Contact TIKU✨🦋-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 
 
