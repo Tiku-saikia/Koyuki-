@@ -34,11 +34,7 @@
 
 * [Git](https://git-scm.com/downloads)
 
-* [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2020-12-08-13-03/ffmpeg-n4.3.1-26-gca55240b8c-win64-gpl-4.3.zip)
-
-* [Libwebp](https://developers.google.com/speed/webp/download)
-
-* Any text editor
+* [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2020-12-08-13-03/ffmpeg-n4.3.1-26-gca55240b8c-win64-gpl-4.3.zip).
 
 ## ` BUILDPACKS`
 
@@ -72,3 +68,15 @@ PUPPETEER_SKIP_CHROMIUM_DOWNLOAD (required), if you are running on windows remov
 6. **Scanning the QR code:**
 
    Open the link provided by the deployment platform OR if you are running on local platform open http://localhost:3000/
+
+## Things I want you to know
+
+   I am still learning nodejs, so my code might look repeating cuz I dont want to touch code if its working, and I am having trouble in saving session on  heroku. If you can help, please feel free to contribute.
+   
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+Thanks For using the Bot 🍥
+
+Arigato Guzaimasu 🧧
