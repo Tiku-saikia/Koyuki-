@@ -1,6 +1,6 @@
 <div align="center">
   
-  <img src="https://telegra.ph/file/e27482803175a7031f735.jpg" width="400" height="300" border="0" alt="PFP">
+  <img src="https://telegra.ph/file/e27482803175a7031f735.jpg" width="500" height="300" border="0" alt="PFP">
 
 </div>
 <p align="center"> 
