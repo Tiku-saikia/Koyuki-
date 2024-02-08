@@ -60,7 +60,7 @@ PUPPETEER_SKIP_CHROMIUM_DOWNLOAD (required), if you are running on windows remov
    BOT_NUMBER (botnumber)
    OWNER_NUMBER (yournumber)
    NUMVERIFY_KEY (optional)
-   CHARAI_TOKEN (optional) (see how to get https://pycai.gitbook.io/welcome/api/values#key-token)
+   CHARAI_TOKEN 1e211bddcee16b5b853b3f9c740502722ee49623  (see how to get https://pycai.gitbook.io/welcome/api/values#key-token)
    CHATBOT (optional) (set default chatbot true/false)
    INSTALLATION_ID (optional) (get truecaller installation ID from https://replit.com/@E-Venture/truecaller-installation-id?v=1)
 
